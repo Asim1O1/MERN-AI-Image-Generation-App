@@ -8,3 +8,5 @@ const generatePrompts = (prompt) => {
 
   return randomPrompt;
 };
+
+export default generatePrompts

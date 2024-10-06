@@ -112,7 +112,7 @@ const CreatePost = () => {
             placeholder="An Impressionist oil painting of sunflowers in a purple vase…"
             value={form.prompt}
             handleChange={handleChange}
-            isHandlePrompts
+            prompts= {true}
             handlePrompts={handlePrompts}
           />
 
